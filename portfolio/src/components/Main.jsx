@@ -15,6 +15,7 @@ import todo from '../assets/projects/todo-app.png'
 import weather from '../assets/projects/weather-app.png'
 import converter from '../assets/projects/unit-converter.png'
 import netflix from '../assets/projects/netflix-clone.png'
+import mm from '../assets/projects/mm.png'
 import TTT from '../assets/projects/tic-tac-toe.png'
 
 
@@ -46,7 +47,7 @@ const Main = () => {
                                     </a>
                                 </li>
                                 <li className=''>
-                                    <a className='flex items-center justify-left gap-2 dark:bg-white hover:bg-white/80 bg-black dark:text-black text-white p-2 rounded-md' href="mailto:rajani_2312res829@iitp.ac.in" target="_blank" rel="noopener noreferrer">
+                                    <a className='flex items-center justify-left gap-2 dark:bg-white hover:bg-white/80 bg-black dark:text-black text-white p-2 rounded-md' href="mailto:rajanijha50@gmail.com" target="_blank" rel="noopener noreferrer">
                                         <lucide.Mail size={25} color="red" />
                                         E-Mail
                                     </a>
@@ -74,6 +75,35 @@ const Main = () => {
                     <h2 className='text-3xl font-semibold text-white'>Projects</h2>
                     <div className=''>
                         <ul className='flex flex-wrap justify-center items-center gap-4 mt-4 text-lg text-white'>
+                            <li className='w-100 h-120 flex flex-col justify-center items-center border rounded-xl p-5 hover:shadow-md cursor-default transition-all hover:bg-white/10'>
+                                <h4 className='text-center text-2xl'>Movie Master</h4>
+                                <p className='text-sm text-center'>
+                                    <div className='mt-4 flex flex-wrap gap-2 justify-center items-center'>
+                                        <span className='p-2 bg-black text-white hover:bg-black/80 border border-white rounded-lg'>NextJS</span>
+                                        <span className='p-2 bg-black text-white hover:bg-black/80 border border-white rounded-lg'>MongoDB</span>
+                                        <span className='p-2 bg-black text-white hover:bg-black/80 border border-white rounded-lg'>REST</span>
+                                        <span className='p-2 bg-black text-white hover:bg-black/80 border border-white rounded-lg'>Tailwind CSS</span>
+
+                                    </div>
+                                    <br />
+                                    A movie recommendation app that provides detailed movie information
+                                    <br />
+                                    Features user authentication and movie search functionality
+                                    
+                                </p>
+                                <img className='w-80 m-4 rounded-sm' src={mm} alt="movie-master" />
+                                <div className='flex justify-between w-11/12'>
+                                    <a className='flex gap-2 dark:bg-white hover:bg-white/80 bg-black dark:text-black text-white p-2 rounded-md' href="https://github.com/rajani-ranjan-jha/guvi-3-movie-app" target="_blank" rel="noopener noreferrer">
+                                        <lucide.Github size={25} color="black" />
+                                        Github
+                                    </a>
+                                    <a className='flex gap-2 dark:bg-white hover:bg-white/80 bg-black dark:text-black text-white p-2 rounded-md' href="https://moviemaster11.vercel.app/" target="_blank" rel="noopener noreferrer">
+                                        <lucide.ExternalLink size={25} color="green" />
+                                        Preview
+                                    </a>
+
+                                </div>
+                            </li>
                             <li className='w-100 h-120 flex flex-col justify-center items-center border rounded-xl p-5 hover:shadow-md cursor-default transition-all hover:bg-white/10'>
                                 <h4 className='text-center text-2xl'>Netflix UI Clone</h4>
                                 <p className='text-sm text-center'>
@@ -248,10 +278,11 @@ const Main = () => {
                                         <lucide.Github size={25} color="black" />
                                         Github
                                     </a>
-                                    <Link className='flex gap-2 dark:bg-white hover:bg-white/80 bg-black dark:text-black text-white p-2 rounded-md' to="projects/weather">
+                                    <a className='flex gap-2 dark:bg-white hover:bg-white/80 bg-black dark:text-black text-white p-2 rounded-md' href="https://weather-app1105.vercel.app/"
+                                    target='_blank' rel="noopener noreferrer">
                                         <lucide.ExternalLink size={25} color="green" />
                                         Preview
-                                    </Link>
+                                    </a>
                                 </div>
                             </li>
 
